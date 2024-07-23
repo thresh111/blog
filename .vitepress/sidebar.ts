@@ -1,9 +1,41 @@
 export default {
-  "/base/": [
+  "/interview/": [
     {
-      text: "JavaScript",
-      items: [{ text: "数据类型", link: "/base/数据类型.md" }],
+      text: "基础",
+      items: [
+        { text: "HTML+CSS", link: "/interview/HTML+CSS.md" },
+        { text: "JavaScript", link: "/interview/JavaScript.md" },
+        { text: "TypeScript", link: "/interview/TypeScript.md" },
+      ],
     },
+    {
+      text: "框架",
+      items: [
+        { text: "Vue", link: "/interview/Vue.md" },
+        { text: "React", link: "/interview/React.md" },
+      ],
+    },
+    {
+      text: "工程化",
+      items: [
+        { text: "Webpack", link: "/interview/Webpack.md" },
+        { text: "Vite", link: "/interview/Vite.md" },
+      ],
+    },
+    {
+      text: "网络",
+      items: [
+        { text: "计算机网络", link: "/interview/计算机网络.md" },
+        { text: "浏览器", link: "/interview/浏览器.md" },
+      ],
+    },
+    {
+      text: "代码题",
+      items: [
+        { text: "程序题", link: "/interview/程序题.md" },
+      
+      ],
+    }
   ],
   "/react/principle": [
     {
