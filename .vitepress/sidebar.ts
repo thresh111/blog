@@ -31,11 +31,8 @@ export default {
     },
     {
       text: "代码题",
-      items: [
-        { text: "程序题", link: "/interview/程序题.md" },
-      
-      ],
-    }
+      items: [{ text: "程序题", link: "/interview/程序题.md" }],
+    },
   ],
   "/react/principle": [
     {
@@ -58,6 +55,12 @@ export default {
         { text: "component", link: "/vue/component" },
         { text: "options-composition", link: "/vue/options-composition" },
       ],
+    },
+  ],
+  "/react_native": [
+    {
+      text: "quick start",
+      items: [{ text: "渲染原理", link: "/guide/" }],
     },
   ],
 };
