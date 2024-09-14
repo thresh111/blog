@@ -3,19 +3,19 @@
 layout: home
 
 hero:
-  name: "Thresh Docs"
-  # text: "在线Docs"
-  tagline: coding is fun
+  name: "Thresh"
+  # text: full stack
+  tagline: dream to be full stack and grand front-end engineer
   image:
     src: /logo.png
     alt: Thresh Docs
-  actions:
-    - theme: brand
-      text: 在线简历
-      link: /resume
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  # actions:
+  #   - theme: brand
+  #     text: 在线简历
+  #     link: /resume
+  #   - theme: alt
+  #     text: API Examples
+  #     link: /api-examples
 
 features:
   - title: 🍎React

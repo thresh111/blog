@@ -57,10 +57,16 @@ export default {
       ],
     },
   ],
-  "/react_native": [
+  "/react-native": [
     {
       text: "quick start",
       items: [{ text: "渲染原理", link: "/guide/" }],
+    },
+  ],
+  "/daily-notes/": [
+    {
+      text: "2024",
+      items: [{ text: "惰性函数", link: "/daily-notes/2024/09" }],
     },
   ],
 };
