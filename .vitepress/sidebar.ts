@@ -34,13 +34,7 @@ export default {
       items: [{ text: "程序题", link: "/interview/程序题.md" }],
     },
   ],
-  "/react/principle": [
-    {
-      text: "Guide",
-      items: [{ text: "渲染原理", link: "/guide/" }],
-    },
-  ],
-  "/vue/": [
+  "/front-end/vue/": [
     {
       text: "vue3 原理解析",
       items: [
@@ -57,10 +51,22 @@ export default {
       ],
     },
   ],
-  "/react_native": [
+  "/front-end/react/": [
     {
-      text: "quick start",
-      items: [{ text: "渲染原理", link: "/guide/" }],
+      text: "hooks",
+      items: [{ text: "useCountdown", link: "/front-end/react/hook/useCountdown.md" }],
+    },
+  ],
+  "/front-end/react-native/": [
+    {
+      text: "组件Demo",
+      items: [
+        { text: "View", link: "/front-end/react-native/demo/View.md" },
+        { text: "Text", link: "/front-end/react-native/demo/Text.md" },
+        { text: "Image", link: "/front-end/react-native/demo/Image.md" },
+        { text: "ImageBackground", link: "/front-end/react-native/demo/ImageBackground.md" },
+        { text: "TextInput", link: "/front-end/react-native/demo/TextInput.md" },
+      ],
     },
   ],
 };
