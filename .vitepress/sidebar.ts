@@ -66,6 +66,26 @@ export default {
         { text: "Image", link: "/front-end/react-native/demo/Image.md" },
         { text: "ImageBackground", link: "/front-end/react-native/demo/ImageBackground.md" },
         { text: "TextInput", link: "/front-end/react-native/demo/TextInput.md" },
+        {
+          text: "TouchableOpacity",
+          link: "/front-end/react-native/demo/TouchableOpacity.md",
+        },
+        {
+          text: "TouchableHighlight",
+          link: "/front-end/react-native/demo/TouchableHighlight.md",
+        },
+        {
+          text: "TouchableWithoutFeedback",
+          link: "/front-end/react-native/demo/TouchableWithoutFeedback.md",
+        },
+        {
+          text: "Button",
+          link: "/front-end/react-native/demo/Button.md",
+        },
+        {
+          text: "ScrollView",
+          link: "/front-end/react-native/demo/ScrollView.md",
+        },
       ],
     },
   ],
