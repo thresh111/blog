@@ -59,7 +59,7 @@ export default {
   ],
   "/front-end/react-native/": [
     {
-      text: "组件Demo",
+      text: "系统组件",
       items: [
         { text: "View", link: "/front-end/react-native/demo/View.md" },
         { text: "Text", link: "/front-end/react-native/demo/Text.md" },
@@ -83,8 +83,36 @@ export default {
           link: "/front-end/react-native/demo/Button.md",
         },
         {
+          text: "Pressable",
+          link: "/front-end/react-native/demo/Pressable.md",
+        },
+        {
           text: "ScrollView",
           link: "/front-end/react-native/demo/ScrollView.md",
+        },
+        {
+          text: "FlatList",
+          link: "/front-end/react-native/demo/FlatList.md",
+        },
+        {
+          text: "SectionList",
+          link: "/front-end/react-native/demo/SectionList.md",
+        },
+        {
+          text: "RefreshControl",
+          link: "/front-end/react-native/demo/RefreshControl.md",
+        },
+        {
+          text: "Modal",
+          link: "/front-end/react-native/demo/Modal.md",
+        },
+        {
+          text: "StatusBar",
+          link: "/front-end/react-native/demo/StatusBar.md",
+        },
+        {
+          text: "Switch",
+          link: "/front-end/react-native/demo/Switch.md",
         },
       ],
     },
