@@ -116,5 +116,16 @@ export default {
         },
       ],
     },
+    {
+      text: "系统api",
+      items: [
+        { text: "console", link: "/front-end/react-native/api/log.md" },
+        { text: "alert", link: "/front-end/react-native/api/alert.md" },
+        { text: "platform 获取平台属性", link: "/front-end/react-native/api/platform.md" },
+        { text: "Dimension 获取屏幕尺寸", link: "/front-end/react-native/api/Dimension.md" },
+        { text: "StyleSheet", link: "/front-end/react-native/api/StyleSheet.md" },
+        { text: "Linking", link: "/front-end/react-native/api/Linking.md" },
+      ],
+    },
   ],
 };
