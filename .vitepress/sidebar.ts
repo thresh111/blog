@@ -131,6 +131,7 @@ export default {
         { text: "Vibration", link: "/front-end/react-native/api/Vibration.md" },
         { text: "ToastAndroid (android)", link: "/front-end/react-native/api/ToastAndroid.md" },
         { text: "transform (伪 3d)", link: "/front-end/react-native/api/transform.md" },
+        { text: "Keyboard", link: "/front-end/react-native/api/Keyboard.md" },
       ],
     },
   ],

@@ -1,5 +1,9 @@
 # transform
 
+:::warning
+顺序很重要！！！
+:::
+
 ## 移动
 
 ```css
@@ -12,4 +16,10 @@ transform: [{translateX: 100}, {translateY: 100}],
 
 ```css
 transform: [{scale: 1.5}],
+```
+
+## 旋转
+
+```css
+transform: [{rotate: 1.5}],
 ```
