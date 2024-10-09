@@ -34,13 +34,7 @@ export default {
       items: [{ text: "程序题", link: "/interview/程序题.md" }],
     },
   ],
-  "/react/principle": [
-    {
-      text: "Guide",
-      items: [{ text: "渲染原理", link: "/guide/" }],
-    },
-  ],
-  "/vue/": [
+  "/front-end/vue/": [
     {
       text: "vue3 原理解析",
       items: [
@@ -57,10 +51,87 @@ export default {
       ],
     },
   ],
-  "/react-native": [
+  "/front-end/react/": [
     {
-      text: "quick start",
-      items: [{ text: "渲染原理", link: "/guide/" }],
+      text: "hooks",
+      items: [{ text: "useCountdown", link: "/front-end/react/hook/useCountdown.md" }],
+    },
+  ],
+  "/front-end/react-native/": [
+    {
+      text: "系统组件",
+      items: [
+        { text: "View", link: "/front-end/react-native/demo/View.md" },
+        { text: "Text", link: "/front-end/react-native/demo/Text.md" },
+        { text: "Image", link: "/front-end/react-native/demo/Image.md" },
+        { text: "ImageBackground", link: "/front-end/react-native/demo/ImageBackground.md" },
+        { text: "TextInput", link: "/front-end/react-native/demo/TextInput.md" },
+        {
+          text: "TouchableOpacity",
+          link: "/front-end/react-native/demo/TouchableOpacity.md",
+        },
+        {
+          text: "TouchableHighlight",
+          link: "/front-end/react-native/demo/TouchableHighlight.md",
+        },
+        {
+          text: "TouchableWithoutFeedback",
+          link: "/front-end/react-native/demo/TouchableWithoutFeedback.md",
+        },
+        {
+          text: "Button",
+          link: "/front-end/react-native/demo/Button.md",
+        },
+        {
+          text: "Pressable",
+          link: "/front-end/react-native/demo/Pressable.md",
+        },
+        {
+          text: "ScrollView",
+          link: "/front-end/react-native/demo/ScrollView.md",
+        },
+        {
+          text: "FlatList",
+          link: "/front-end/react-native/demo/FlatList.md",
+        },
+        {
+          text: "SectionList",
+          link: "/front-end/react-native/demo/SectionList.md",
+        },
+        {
+          text: "RefreshControl",
+          link: "/front-end/react-native/demo/RefreshControl.md",
+        },
+        {
+          text: "Modal",
+          link: "/front-end/react-native/demo/Modal.md",
+        },
+        {
+          text: "StatusBar",
+          link: "/front-end/react-native/demo/StatusBar.md",
+        },
+        {
+          text: "Switch",
+          link: "/front-end/react-native/demo/Switch.md",
+        },
+      ],
+    },
+    {
+      text: "系统api",
+      items: [
+        { text: "console", link: "/front-end/react-native/api/log.md" },
+        { text: "alert", link: "/front-end/react-native/api/alert.md" },
+        { text: "platform 获取平台属性", link: "/front-end/react-native/api/platform.md" },
+        { text: "Dimension 获取屏幕尺寸", link: "/front-end/react-native/api/Dimension.md" },
+        { text: "StyleSheet", link: "/front-end/react-native/api/StyleSheet.md" },
+        { text: "Linking", link: "/front-end/react-native/api/Linking.md" },
+        { text: "PixelRatio", link: "/front-end/react-native/api/PixelRatio.md" },
+        { text: "BackHandler (android)", link: "/front-end/react-native/api/BackHandler.md" },
+        { text: "PermissionsAndroid (android 动态权限)", link: "/front-end/react-native/api/PermissionsAndroid.md" },
+        { text: "Vibration", link: "/front-end/react-native/api/Vibration.md" },
+        { text: "ToastAndroid (android)", link: "/front-end/react-native/api/ToastAndroid.md" },
+        { text: "transform (伪 3d)", link: "/front-end/react-native/api/transform.md" },
+      ],
     },
   ],
   "/daily-notes/": [
