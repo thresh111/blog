@@ -135,4 +135,10 @@ export default {
       ],
     },
   ],
+  "/daily-notes/": [
+    {
+      text: "2024",
+      items: [{ text: "惰性函数", link: "/daily-notes/2024/09" }],
+    },
+  ],
 };
