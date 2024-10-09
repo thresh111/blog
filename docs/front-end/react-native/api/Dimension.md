@@ -20,7 +20,9 @@ console.log(scale, fontScale, "scale, fontScale");
 
 ## Dimensions.get 传 screen 和 window 的区别
 
-window 是获取当前屏幕的宽高，screen 是获取设备的宽高，一般用 window 就可以了
+:::info
+window 是获取当前屏幕的宽高，screen 是获取设备的宽高，一般用 **window** 就可以了
+:::
 
 ## 监听屏幕变化
 

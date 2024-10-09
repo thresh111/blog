@@ -8,7 +8,9 @@ static compose(...style: Array<ViewStyle>): ViewStyle;
 
 将多个样式对象合并为一个样式对象。
 
+::: warning
 避免数组写法 ， diff 算法性能问题
+:::
 
 ## flatten
 
