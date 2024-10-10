@@ -134,6 +134,17 @@ export default {
         { text: "Keyboard", link: "/front-end/react-native/api/Keyboard.md" },
       ],
     },
+    {
+      text: "动画",
+      items: [
+        { text: "4种动画类型", link: "/front-end/react-native/anim/type.md" },
+        { text: "支持动画的组件(6个)", link: "/front-end/react-native/anim/support.md" },
+        { text: "3大动画函数", link: "/front-end/react-native/anim/func.md" },
+        { text: "矢量动画", link: "/front-end/react-native/anim/vector.md" },
+        { text: "四种组合动画", link: "/front-end/react-native/anim/四种组合动画.md" },
+        { text: "跟随动画延迟", link: "/front-end/react-native/anim/跟随动画延迟.md" },
+      ],
+    },
   ],
   "/daily-notes/": [
     {
